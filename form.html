@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OSS Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="content">
+                <form class="formWidthValidation" >
+                    <div>
+                        <label for="firstName">First name:</label>
+                    </div>
+                    <div>
+                        <input type="text" class="firstName field" />
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last name:</label>
+                    </div>  
+                    <div>  
+                        <input type="text" class="lastName field"/>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                    </div>    
+                    <div>
+                        <input type="text" class="email"/>
+                    </div>
+
+                    <button type="submit" class="validateBtn">Send</button>
+                </form>
+                <div class="sendForm">
+                    Your form has been submitted</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./script/form.js"></script>
+</body>
+</html>

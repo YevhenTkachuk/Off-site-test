@@ -1,0 +1,190 @@
+body{
+    height: 1365px;
+    background: #ada6a0;
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrap{
+    width: 929px;
+    margin: 0 auto;  
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    background: url(./media/Logo.png) no-repeat;
+    margin: 44px auto 13px;
+}
+
+.navbar{
+    height: 55px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-item{
+    font-size: 18.00225pt;
+    color: rgba(91, 91, 91, 255);
+    cursor: pointer;
+}
+
+.navbar-search{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    background: #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+.search__input {
+    border: none;
+    color: rgba(91, 91, 91, 255);
+    background: #fafafa;
+    padding: 0 0 0 30px;
+
+}
+
+.navbar-search img {
+    padding-right: 10px;
+}
+
+.first-section-gallery{
+    height: 375px;
+    padding: 15px;
+    background: #ffffff;
+    margin-top: 15px;
+}
+
+.first-section-gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+.second-section-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    justify-content: space-between;
+}
+
+.gallery-block{
+    width: 225px;
+    padding: 13px 12px 22px 11px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.gallery-image {
+    height: 201px;
+}
+
+.gallery-infornation{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-indent: 30px;
+}
+
+.gallery-link{
+    text-align: end;
+    color: rgba(0, 0, 0, 255);
+}
+
+.site-information{
+    height: 187px;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.site-information-gallery{
+    width: 212px;
+    height: 167px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.information-image{
+    width: 102px;
+    height: 77px;
+}
+
+.site-information-text{
+    width: 673px;
+    padding: 5px;
+}
+
+.site-information-text h1{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-information-text p {
+    text-align: justify;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+.link{
+    text-align: end !important;
+}
+
+.footer{
+    height: 55px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #fff;
+}
+
+.footer-link{
+padding: 5px;
+color: rgba(0, 0, 0, 255);
+padding: 0 0 0 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 255);
+}
+
+label {
+    width: 100px;
+}
+
+input {
+    border : 1px solid #ccc;
+}
+
+.content {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.error{
+    color: red;
+}
+
+.sendForm{
+    text-align: center;
+    color:royalblue ;
+    font-size: 20px;
+    display: none;
+}
+
